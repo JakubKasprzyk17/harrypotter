@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "HarryPotter",
+    "slug": "harrypotter",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jkasprzyk17.harrypotter"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jkasprzyk17.harrypotter"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "55ef355a-62d1-46fd-85b3-1521033e5341"
+      }
+    },
+    "owner": "j.kasprzyk17",
+    "updates": {
+      "url": "https://u.expo.dev/55ef355a-62d1-46fd-85b3-1521033e5341"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
