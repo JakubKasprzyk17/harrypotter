@@ -68,7 +68,14 @@ const SpellDetails = ({ route, navigation }: SpellDetailsProps) => {
           style={s.image}
         />
 
-        <View style={{ paddingHorizontal: 20, flex: 1, marginTop: 20 }}>
+        <View
+          style={{
+            paddingHorizontal: 20,
+            flex: 1,
+            marginTop: 20,
+            paddingBottom: 20
+          }}
+        >
           <Text style={s.title}>{name}</Text>
           <View style={s.detailsContainer}>
             <Text style={s.detailItem}>

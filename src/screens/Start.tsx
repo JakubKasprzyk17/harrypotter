@@ -14,11 +14,11 @@ interface StartProps {
 }
 
 const Start: React.FC<StartProps> = ({ onAnimationFinish }) => {
-  const scale = useSharedValue(0);
+  const scale = useSharedValue(1);
   const opacity = useSharedValue(0);
 
   useEffect(() => {
-    scale.value = withTiming(1, { duration: 1500, easing: Easing.ease });
+    scale.value = withTiming(2, { duration: 1500, easing: Easing.ease });
     opacity.value = withTiming(1, { duration: 1500, easing: Easing.ease });
 
     setTimeout(() => {
@@ -38,7 +38,7 @@ const Start: React.FC<StartProps> = ({ onAnimationFinish }) => {
     >
       <Animated.View style={animatedStyle}>
         <Image
-          source={require('@src/assets/images/hogwart.png')}
+          source={require('@src/assets/images/splash.png')}
           style={s.image}
         />
       </Animated.View>

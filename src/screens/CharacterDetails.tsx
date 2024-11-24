@@ -72,7 +72,14 @@ const CharacterDetails = ({ route, navigation }: CharacterDetailsProps) => {
           style={s.image}
         />
 
-        <View style={{ paddingHorizontal: 20, flex: 1, marginTop: 20 }}>
+        <View
+          style={{
+            paddingHorizontal: 20,
+            flex: 1,
+            marginTop: 20,
+            paddingBottom: 20
+          }}
+        >
           <Text style={s.name}>{name}</Text>
 
           {house && (

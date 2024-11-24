@@ -1,4 +1,4 @@
-import { StyleSheet, Text, Image, Pressable } from 'react-native';
+import { StyleSheet, Text, Image, Pressable, Platform } from 'react-native';
 import React, { useEffect, useState } from 'react';
 import Svg, { Line } from 'react-native-svg';
 import Animated, {
@@ -60,7 +60,10 @@ const LearnSpell = ({ route, navigation }: LearnSpellProps) => {
   const animatedStyles = useAnimatedStyle(() => ({
     transform: [
       { translateX: translationX.value },
-      { translateY: translationY.value }
+      {
+        translateY:
+          Platform.OS === 'ios' ? translationY.value : translationY.value - 17.5
+      }
     ]
   }));
 
