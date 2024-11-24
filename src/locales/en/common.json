@@ -1,0 +1,47 @@
+{
+  "Screens": {
+    "Characters": "Characters",
+    "CharacterDetails": "Character Details",
+    "Spells": "Spells",
+    "SpellDetails": "Spell Details",
+    "SpellsDictionary": "Spells Dictionary"
+  },
+  "Errors": {
+    "noInternetConnection": "No internet connection",
+    "401": "Try to login again",
+    "404": "Something went wrong",
+    "500": "Server error, try again later",
+    "timeIsUp": "Failed to learn spell"
+  },
+  "spellLearnt": "Hooray! You have learnt the spell",
+  "time": "Time: {{time}} s",
+  "search": "Search ",
+  "sort": "Sort",
+  "filter": "Filter",
+  "reset": "Reset",
+  "Select": {
+    "none": "None",
+    "all": "All",
+    "gender": "Select gender",
+    "house": "Select house",
+    "bloodStatus": "Select blood status",
+    "species": "Select species",
+    "category": "Select category"
+  },
+  "house": "House: ",
+  "species": "Species: ",
+  "patronus": "Patronus: ",
+  "bloodStatus": "Blood status: ",
+  "gender": "Gender: ",
+  "born": "Born: ",
+  "boggart": "Boggart: ",
+  "animagus": "Animagus: ",
+  "unknown": "Unknown",
+  "category": "Category: ",
+  "effect": "Effect: ",
+  "none": "None",
+  "wiki": "View on Harry Potter Wiki",
+  "incantation": "Incantation: ",
+  "hand": "Hand: ",
+  "light": "Light: "
+}
