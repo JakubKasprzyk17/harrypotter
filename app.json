@@ -4,13 +4,15 @@
     "slug": "harrypotter",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/images/icon.png",
+    "icon": "./src/assets/images/hogwart.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./src/assets/images/splash.png",
+      "image": "./src/assets/images/hogwart.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "foregroundImage": "./src/assets/images/hogwart.png",
+      "backgroundColor": "#0F3460",
+      "foregroundColor": "#ffcc00"
     },
     "ios": {
       "supportsTablet": true,
@@ -19,7 +21,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#0F3460"
       },
       "package": "com.jkasprzyk17.harrypotter"
     },
